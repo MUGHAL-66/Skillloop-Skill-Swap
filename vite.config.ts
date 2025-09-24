@@ -5,6 +5,8 @@
 
   export default defineConfig({
     plugins: [react()],
+    base: '/Skillloop-Skill-Swap/',   // 👈 add this line
+
     resolve: {
       extensions: ['.js', '.jsx', '.ts', '.tsx', '.json'],
       alias: {
